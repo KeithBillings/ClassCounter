@@ -1,5 +1,5 @@
 :root {
-  margin: 1rem;
+  margin: 0rem;
   text-align: center;
   margin-right: 0;
   margin-left: 0;
@@ -7,11 +7,12 @@
 
 body {
   background-image: url(./images/full-bloom.png);
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
   font-size: 2rem;
+  margin-top: 2rem;
 }
 
 .jumbotron {
@@ -33,17 +34,16 @@ h1 {
 .tableHeader {
   font-size: 1.3rem;
   font-weight: 500;
-  border-bottom: 0.5px solid whitesmoke;
+  border-bottom: 1px solid lightgray;
 }
 
 .row {
   padding: .5rem 0 .5rem 0;
-  text-align: center;
   justify-content: center;
 }
 
-#issacCounter {
-  text-align: center;
+#issacCounter > h5{
+  margin-top: 1rem;
 }
 
 .issacPics {
@@ -54,6 +54,17 @@ h1 {
 }
 
 .issacPics > img {
-  width: 10%;
+  margin-top: 1rem;
+  width: 9vw;
   max-width: 80%;
+}
+
+#stackOverflow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#stackOveflow > img {
+  width: 10%;
 }
