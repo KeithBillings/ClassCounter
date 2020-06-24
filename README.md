@@ -11,3 +11,7 @@ yes.
 ## Deployment 
 
 https://keithbillings.github.io/ClassCounter/
+
+## Screenshot
+
+![screenshot](./assets/images/Screenshot1.png)
