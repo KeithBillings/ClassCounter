@@ -1,130 +1,194 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Personal CSS -->
-    <link rel="stylesheet" href="./assets/style.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
-    <title>Counters</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <div class="jumbotron">
-      <h1> Class Counters</h1>   
+  <!-- Personal CSS -->
+  <link rel="stylesheet" href="./assets/style.css" />
+
+  <title>Counters</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="jumbotron">
+    <h1> Class Counters</h1>
+  </div>
+  <!-- Russian Names -->
+  <div class="container">
+    <div class="row">
+      <h2 class="col-sm-6">Russian Names</h2>
+      <h2 class="col-sm-6">"Are You Recording Maryus?"</h2>
     </div>
-    <!-- Russian Names -->
-    <table class="table table-light">
-      <h1>Russian Names</h1>
-      <div class="container table-light">
-        <div class="row tableHeader">
-          <div class="col-sm-4">#</div>
-          <div class="col-sm-4">Name</div>
-          <div class="col-sm-4">Count</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">1</div>
-          <div class="col-sm-4">Maryus</div>
-          <div class="col-sm-4">1</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">2</div>
-          <div class="col-sm-4">Masha</div>
-          <div class="col-sm-4">1</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">3</div>
-          <div class="col-sm-4">Cheburashka</div>
-          <div class="col-sm-4">5</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">4</div>
-          <div class="col-sm-4">Fedia</div>
-          <div class="col-sm-4">1</div>
-        </div>
+    <div class="row">
+      <div class="col-sm-5 table-light" id="russianNames">
+        <table class="table table-light">
+          <div class="row tableHeader">
+            <div class="col-sm-4">#</div>
+            <div class="col-sm-4">Name</div>
+            <div class="col-sm-4">Count</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">1</div>
+            <div class="col-sm-4">Maryus</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">2</div>
+            <div class="col-sm-4">Masha</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">3</div>
+            <div class="col-sm-4">Cheburashka</div>
+            <div class="col-sm-4">5</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">4</div>
+            <div class="col-sm-4">Fedia</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">5</div>
+            <div class="col-sm-4">Ivan</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">6</div>
+            <div class="col-sm-4">Vladimir</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">7</div>
+            <div class="col-sm-4">Dmitry</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">8</div>
+            <div class="col-sm-4">Marina</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">9</div>
+            <div class="col-sm-4">Slava</div>
+            <div class="col-sm-4">3</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">10</div>
+            <div class="col-sm-4">Tyoma</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">11</div>
+            <div class="col-sm-4">Vasilisa</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">12</div>
+            <div class="col-sm-4">Volodia</div>
+            <div class="col-sm-4">1</div>
+          </div>
+        </table>
       </div>
-      </table>
 
-    <!-- Recording Counter -->
-    <table class="table table-light">
-      <h1>"Are You Recording Maryus?"</h1>
-      <div class="container table-light">
-        <div class="row tableHeader">
-          <div class="col-sm-4">#</div>
-          <div class="col-sm-4">Name</div>
-          <div class="col-sm-4">Count</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">1</div>
-          <div class="col-sm-4">Echo</div>
-          <div class="col-sm-4">7</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">2</div>
-          <div class="col-sm-4">Beki</div>
-          <div class="col-sm-4">2</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">3</div>
-          <div class="col-sm-4">Kayrn</div>
-          <div class="col-sm-4">1</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">4</div>
-          <div class="col-sm-4">Maryus reminding himself</div>
-          <div class="col-sm-4">1</div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">5</div>
-          <div class="col-sm-4">Heather</div>
-          <div class="col-sm-4">1</div>
-        </div>
-      </div>
-    </table>
+      <!-- Spacer -->
+      <div class="col-sm-1"></div>
 
-    <!-- Issac Mute Mics -->
-    <div id="issacCounter">
-      <h1>Issac Saying "Mute Your Mics!"</h1>
-      <div class="issacPics">
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />
-        <img src="./assets/images/mutemics.jpg" alt="Issac" />   
+      <!-- Recording Counter -->
+      <div class="col-sm-5 table-light" id="maryusRecording">
+        <table class="table table-light">
+          <div class="row tableHeader">
+            <div class="col-sm-4">#</div>
+            <div class="col-sm-4">Name</div>
+            <div class="col-sm-4">Count</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">1</div>
+            <div class="col-sm-4">Echo</div>
+            <div class="col-sm-4">8</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">2</div>
+            <div class="col-sm-4">Beki</div>
+            <div class="col-sm-4">2</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">3</div>
+            <div class="col-sm-4">Kayrn</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">4</div>
+            <div class="col-sm-4">Maryus reminding himself</div>
+            <div class="col-sm-4">3</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">5</div>
+            <div class="col-sm-4">Heather</div>
+            <div class="col-sm-4">1</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">6</div>
+            <div class="col-sm-4">Ty</div>
+            <div class="col-sm-4">1</div>
+          </div>
+        </table>
       </div>
-      <h5>10 times</h5>
     </div>
-
-    <!-- Ta-Dam -->
-    <div id="taDamCounter">
-      <h1 class="row">Maryus saying "Ta-Dam!"</h1>
-      <h5 class="row">Lost count</h5>
+  </div>
+  </div>
+  <!-- Issac Mute Mics -->
+  <div id="issacCounter">
+    <h1>Issac Saying "Mute Your Mics!"</h1>
+    <div class="issacPics">
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
+      <img src="./assets/images/mutemics.jpg" alt="Issac" />
     </div>
+    <h5>10 times</h5>
+  </div>
 
-    <!-- Someone stack overflowing -->
-    <div>
-      <h1 class="row">Someone Stack Overflowing</h1>
-      <div id="stackOverflow">
-        <img src="./assets/images/so-icon.svg" alt="stackOverflowImage" />
-        <img src="./assets/images/so-icon.svg" alt="stackOverflowImage" />
-        <img src="./assets/images/so-icon.svg" alt="stackOverflowImage" />
-      </div>
-      <h5>3 times</h5>
+  <!-- Ta-Dam -->
+  <div id="taDamCounter">
+    <h1 class="row">Maryus saying "Ta-Dam!"</h1>
+    <h5 class="row">Lost count</h5>
+  </div>
+
+  <!-- Someone stack overflowing -->
+  <div>
+    <h1 class="row">Someone Stack Overflowing</h1>
+    <div id="stackOverflow">
+      <img src="./assets/images/so-icon.svg" alt="stackOverflowImage" />
+      <img src="./assets/images/so-icon.svg" alt="stackOverflowImage" />
+      <img src="./assets/images/so-icon.svg" alt="stackOverflowImage" />
     </div>
-    
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <h5>3 times</h5>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

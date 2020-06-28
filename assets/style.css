@@ -15,6 +15,10 @@ h1 {
   margin-top: 2rem;
 }
 
+h2 {
+  margin-top: 1rem;
+}
+
 .jumbotron {
   text-shadow: -2px 2px lightgray;
   padding: 2rem;
@@ -29,9 +33,13 @@ h1 {
 .container {
   border: rgba(0, 0, 0, 0.2) 3px double;
   border-radius: 15px;
+  padding-bottom: 2rem;
 }
 
 .tableHeader {
+  margin: auto;
+  justify-content: center;
+  width: 90%;
   font-size: 1.3rem;
   font-weight: 500;
   border-bottom: 1px solid lightgray;
@@ -67,4 +75,12 @@ h1 {
 
 #stackOveflow > img {
   width: 10%;
+}
+
+#russianNames {
+  padding: 0;
+}
+
+#maryusRecording {
+  padding: 0;
 }
