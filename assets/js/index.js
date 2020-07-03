@@ -1,4 +1,4 @@
-// List Population 
+// Names List Population 
 
 const russianNames = $('#russianNames')
 const maryusRecording =$('#maryusRecording')
@@ -22,18 +22,15 @@ buildHtmlList(russianNamesArray, russianNames);
 buildHtmlList(remindMaryusToRecord, maryusRecording);
 
 // Issac Population 
+const issacCount = 11; // Only change this value
 
 const issacList = $('#issacList');
-const issacCount = 10;
-
-
 function buildIssacList (count) {
 
   let issacImgList = ``;
   for (i = 0; i < count; i++){
     issacImgList = issacImgList + `<img src="./assets/images/mutemics.jpg" alt="Issac" />`
   }
-
   issacList.append(
     `<h1>Issac Saying "Mute Your Mics!"</h1>
     <div class="issacPics">
@@ -44,3 +41,19 @@ function buildIssacList (count) {
 }
 
 buildIssacList(issacCount);
+
+// Stack Overflow Population 
+const stackOverflowCount = 3; // Only change this value
+
+const stackOverflow = $('#stackOverflow');
+const stackOverflowCountDisplay = $('#stackOverflowCountDisplay')
+
+function buildStackOverflowList (count) {
+  
+  for(i=0; i<count; i++){
+    $(stackOverflow).append(`<img src="./assets/images/so-icon.svg" alt="stackOverflowImage" />`)
+    $(stackOverflowCountDisplay).html(`${count} times`)
+  }
+}
+
+buildStackOverflowList(stackOverflowCount);

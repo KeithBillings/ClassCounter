@@ -27,7 +27,7 @@ const russianNamesArray = [
     name: 'Dmitry',
     count: 1
   },
-   {
+  {
     name: 'Marina',
     count: 1
   }, 
