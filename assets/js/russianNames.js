@@ -1,4 +1,4 @@
-const russianNameArray = [
+const russianNamesArray = [
   {
     name: 'Maryus',
     count: 1
@@ -41,7 +41,7 @@ const russianNameArray = [
   }, 
   {
     name: 'Vasilisa',
-    count: 1
+    count: 2
   }, 
   {
     name: 'Volodia',
