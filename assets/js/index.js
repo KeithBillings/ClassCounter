@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // Names List Population 
 
 const russianNames = $('#russianNames')
@@ -57,3 +58,4 @@ function buildStackOverflowList (count) {
 }
 
 buildStackOverflowList(stackOverflowCount);
+});
