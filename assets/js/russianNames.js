@@ -66,5 +66,17 @@ const russianNamesArray = [
   {
     name: 'Demetris',
     count: 1
+  },
+  {
+    name: 'Alesha',
+    count: 1
+  },
+  {
+    name: 'Nadejda',
+    count: 1
+  },
+  {
+    name: 'Vasili',
+    count: 1
   }
 ];

@@ -22,5 +22,9 @@ const remindMaryusToRecord = [
   {
     name: 'Ty',
     count: 1
+  },
+  {
+    name: 'Mo',
+    count: 1
   }
 ]
