@@ -9,7 +9,7 @@ const remindMaryusToRecord = [
   },
   {
     name: 'Kayrn',
-    count: 1
+    count: 2
   },
   {
     name: 'Maryus Reminding Himself',

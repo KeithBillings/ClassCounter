@@ -44,7 +44,7 @@ function buildIssacList (count) {
 buildIssacList(issacCount);
 
 // Stack Overflow Population 
-const stackOverflowCount = 3; // Only change this value
+const stackOverflowCount = 4; // Only change this value
 
 const stackOverflow = $('#stackOverflow');
 const stackOverflowCountDisplay = $('#stackOverflowCountDisplay')

@@ -69,7 +69,7 @@ const russianNamesArray = [
   },
   {
     name: 'Alesha',
-    count: 1
+    count: 3
   },
   {
     name: 'Nadejda',
